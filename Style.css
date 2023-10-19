@@ -1,0 +1,921 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+/*Mobile first vertical */
+@media(max-width:575px){
+    body{
+        background-color: chocolate;
+        font-size: 14px;
+    }
+    aside{
+        display: none;
+    }
+    section{
+        background-color:lightblue;
+        font-size: 14px;
+        border: 2px solid black;
+        height: 1550px;
+    }
+    footer{
+        font-size: 14px;
+        border: 2px solid black;
+        background-color: lightyellow;
+        margin: 20px 10px 0px 10px;
+    }
+    .main{
+        display:block;
+        height: 1550px;
+    }
+ 
+    nav{
+        display:block;
+        background-color: lightgreen;
+        border: 2px solid black;
+    }
+    .Barra{
+        font-size: 14px;
+        color: darkred;
+    }
+    .TituloNav{
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+    }
+    ol{
+        position: relative;
+        left: 7px;
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .Foot{
+        display: inline-block;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .imgGTA3{
+        display: none;
+    }
+
+    .imgGTA2{
+        width: 180px ;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .imgSC3{
+        display: none;
+    }
+    .imgSC2{
+        width: 180px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .imágenes{
+        display: block;
+    }
+
+    .imgMGS{
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .imgMGS2{
+        display: none;
+    }
+
+    .imgGOW{
+        display: none;
+    }
+
+    .imgGOW2{
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+    }
+
+    .botonAct{
+        background-color:yellow;
+        color: black;
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .botonSig{
+        background-color: yellow;
+        color: black;
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+/*Mobile first Horizontal */
+@media(min-width:576px){
+    body{
+        background-color: darkgoldenrod;
+        font-size: 14px;
+    }
+    aside{
+        height: 1280px;
+        border: 2px solid black;
+        font-size: 14px;
+        background-color:lightgreen;
+    }
+    section{
+        background-color: lightskyblue;
+        font-size: 14px;
+        border: 2px solid black;
+        height: 1280px;
+        margin: 5px;
+    }
+    footer{
+        font-size: 14px;
+        border: 2px solid black;
+        background-color: lightyellow;
+        margin: 10px;
+    }
+    .main{
+        display:flex;
+        height: 1330px;
+    }
+
+    nav{
+        display:flex;
+        background-color:lightgoldenrodyellow;
+        border: 2px solid black;
+        justify-content: space-between;
+    }
+    .Barra{
+        font-size: 14px;
+        color: darkred;
+    }
+    .TituloNav{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        margin: 0px;
+        border:dotted;
+    }
+    ol{
+        position: relative;
+        left: 7px;
+        font-size: 14px;
+    }
+
+    ul{
+        position: relative;
+        left:7px;
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .Foot{
+        display: flex;
+        justify-content: space-around;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .imgGTA3{
+        width: 150px ;
+        border: 2px solid black;
+    }
+
+    .imgGTA2{
+        width: 150px ;
+        border: 2px solid black;
+    }
+
+    .imgSC3{
+        width: 170px;
+        border: 2px solid black;
+    }
+    .imgSC2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imágenes{
+        display: flex;
+    }
+
+    .imgMGS2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgMGS{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgGOW{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgGOW2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+
+    .botonAct{
+        background-color: lightpink;
+        color: black;
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .botonSig{
+        background-color: lightpink;
+        color: black;
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .imgBM{
+        transition: none;
+        border: 2px solid black;
+        width: 50%;
+    }
+
+    .imgBM:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .imgRE4{
+        width: 50%;
+        border: 2px solid black;
+        transition: none;
+    }
+    
+    .imgRE4:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .imgFFX{
+        width: 70%;
+        border: 2px solid black;
+        transition: none;
+    }
+    
+    .imgFFX:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .imgSLY{
+        width: 50%;
+        border: 2px solid black;
+        transition:none;
+    }
+    
+    .imgSLY:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .imgPES{
+        width: 50%;
+        border: 2px solid black;
+        transition: none;
+    }
+    
+    .imgPES:hover{
+        transition: none;
+        transform: none;
+    }
+}
+
+/*Tabletas */
+@media (min-width:768px){
+    body{
+        font-size: 15px;
+        background-color: darkgrey;
+    }
+
+    aside{
+        background-color: lightsalmon;
+        height: 1300px;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    section{
+        font-size: 15px;
+        border: 2px solid black;
+        height: 1300px;
+        margin: 5px;
+    }
+    footer{
+        font-size: 15px;
+        border: 2px solid black;
+        background-color: lightgreen;
+        margin: 5px 10px;
+    }
+    .main{
+        display:flex;
+        height: 1330px;
+    }
+
+    nav{
+        display:flex;
+        background-color:darkslategrey;
+        border: 2px solid black;
+        justify-content: space-between;
+    }
+    .Barra{
+        font-size: 15px;
+        color: azure;
+    }
+    .TituloNav{
+        font-size: 18px;
+        margin: 0px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .TitAside{
+        border: 10px solid #2e518b;
+        background-color: none;
+        color: black;
+    }
+    ol{
+        left: 7px;
+        font-size: 15px;
+    }
+
+    ul{
+        position: relative;
+        left: 7px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .Foot{
+        display: flex;
+        justify-content: space-around;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .imgGTA3{
+        width: 150px ;
+        border: 2px solid black;
+    }
+
+    .imgGTA2{
+        width: 150px ;
+        border: 2px solid black;
+    }
+
+    .imgSC3{
+        width: 170px;
+        border: 2px solid black;
+    }
+    .imgSC2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imágenes{
+        display: flex;
+    }
+
+    .imgMGS2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgMGS{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgGOW{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .imgGOW2{
+        width: 170px;
+        border: 2px solid black;
+    }
+
+    .botonAct{
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        background-color:lightgoldenrodyellow ;
+        color: black;
+        font-size: 15px;
+    }
+
+    .botonSig{
+        border-radius: 50%;
+        border: 2px solid #2e518b;
+        background-color:lightgoldenrodyellow;
+        color: black;
+        font-size: 15px;
+    }
+
+    .imgBM{
+        transition: none;
+        border: 2px solid black;
+        width: 45%;
+    }
+
+    .imgRE4{
+        width: 45%;
+        border: 2px solid black;
+        transition: none;
+    }
+
+    .imgFFX{
+        width: 65%;
+        border: 2px solid black;
+    }
+
+    .imgSLY{
+        width: 45%;
+        border: 2px solid black;
+    }
+    
+    .imgPES{
+        width: 45%;
+        border: 2px solid black;
+    }
+}
+
+/*Escritorios normales */
+@media (min-width:992px){
+    .main{
+        display: flex;
+        height: 1470px;
+        margin: 5px;
+    }
+    
+    body{
+        background-color: darkcyan;
+    }
+    
+    section{
+    background-color:lightblue;
+    border: 3px solid black;
+    height: 1450px;
+    font-size: 16px;
+    }
+    
+    aside{
+        background-color: lightskyblue;
+        border: 3px solid black;
+        height: 1450px;
+        font-size: 16px;
+    }
+    
+    nav{
+        display: flex;
+        background-color:steelblue;
+        justify-content: space-around;
+    }
+    
+    .TituloNav{
+        margin: 10px 300px 10px 0px;
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        background-color: cornsilk;
+        border:ridge;
+    }
+    
+    h2{
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    ol{
+        position: relative;
+        left: 20px;
+        font-size: 16px;
+    }
+    
+    li{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    
+    .imgGTA2{
+        width: 30%;
+        border: 3px solid black;
+        align-items: end;
+    }
+    
+    .imgGTA3{
+        width: 30%;
+        border: 3px solid black;
+    }
+    
+    .TitAside{
+        font-size: small;
+        background-color: beige;
+        border: 3px double black;
+        font-size: 16px;
+    }
+    
+    .imgSC2{
+        width: 30%;
+        border: 3px solid black;
+    }
+    
+    .imgSC3{
+        width: 35%;
+        border: 3px solid black;
+    }
+    
+    .imgPES{
+        width: 60%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgPES:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    .imgBM{
+        width: 60%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgBM:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    .imgMGS{
+        width: 40%;
+        border: 3px solid black;
+    }
+    
+    .imgMGS2{
+        width: 40%;
+        border: 3px solid black;
+    }
+    .imgGOW{
+        width: 40%;
+        border: 3px solid black;
+    }
+    
+    .imgGOW2{
+        width: 40%;
+        border: 3px solid black;
+    }
+    .imgSLY{
+        width: 60%;
+        border: 3px solid black;
+        transition:1s;
+    }
+    
+    .imgSLY:hover{
+        transform: scale(1.5);
+        transition: 2s;
+    }
+    
+    .imgFFX{
+        width: 90%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgFFX:hover{
+        transform: scale(1.5);
+        transition: 2s;
+    }
+    
+    .imgRE4{
+        width: 60%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgRE4:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    footer{
+        background-color: burlywood;
+        font-size: small;
+        border: 3px solid black;
+    }
+    
+    .Foot{
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .Barra{
+        color: darkred;
+        font-size: 16px;
+    }
+    
+    .imágenes{
+        display: flex;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botonAct{
+        border: 1px solid #2e518b;
+        padding: 10px;
+        background-color: #2e518b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 1s;
+        font-size: 16px;
+    }
+    
+    .botonAct:hover{
+        background-color: darkred;
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .botonSig{
+        border: 1px solid #2e518b;
+        padding: 10px;
+        background-color: #2e518b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 1s;
+        font-size: 16px ;
+    }
+    
+    .botonSig:hover{
+        background-color: darkred;
+        transform: scale(1.1);
+        transition: 2s;
+    }
+}
+
+/*Pantallas grandes */
+@media (min-width:1200px){
+    .main{
+        display: flex;
+        height: 1750px;
+        margin: 5px;
+    }
+    
+    body{
+        background-color: darkblue;
+    }
+    
+    section{
+        background-color:lightblue;
+        border: 3px solid black;
+        height: 1700px;
+        font-size: 17px;
+    }
+    
+    aside{
+        background-color: lightskyblue;
+        border: 3px solid black;
+        height: 1700px;
+    }
+    
+    nav{
+        display: flex;
+        background-color:steelblue;
+        justify-content: space-around;
+    }
+    
+    .TituloNav{
+        margin: 10px 300px 10px 0px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        background-color:  white;
+        border:4px double black;
+    }
+    
+    h2{
+        margin: 10px;
+        font-size: 17px;
+    }
+    
+    ol{
+        position: relative;
+        left: 20px;
+        font-size: 17px;
+    }
+    
+    li{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+    
+    .imgGTA2{
+        width: 30%;
+        border: 3px solid black;
+        align-items: end;
+    }
+    
+    .imgGTA3{
+        width: 30%;
+        border: 3px solid black;
+    }
+    
+    .TitAside{
+        font-size: small;
+        background-color: beige;
+        border: 3px double black;
+        font-size: 17px;
+    }
+    
+    .imgSC2{
+        width: 30%;
+        border: 3px solid black;
+    }
+    
+    .imgSC3{
+        width: 35%;
+        border: 3px solid black;
+    }
+    
+    .imgPES{
+        width: 60%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgPES:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    .imgBM{
+        width: 60%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgBM:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    .imgMGS{
+        width: 40%;
+        border: 3px solid black;
+    }
+    
+    .imgMGS2{
+        width: 40%;
+        border: 3px solid black;
+    }
+    .imgGOW{
+        width: 40%;
+        border: 3px solid black;
+    }
+    
+    .imgGOW2{
+        width: 40%;
+        border: 3px solid black;
+    }
+    .imgSLY{
+        width: 60%;
+        border: 3px solid black;
+        transition:1s;
+    }
+    
+    .imgSLY:hover{
+        transform: scale(1.5);
+        transition: 2s;
+    }
+    
+    .imgFFX{
+        width: 90%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgFFX:hover{
+        transform: scale(1.5);
+        transition: 2s;
+    }
+    
+    .imgRE4{
+        width: 70%;
+        border: 3px solid black;
+        transition: 1s;
+    }
+    
+    .imgRE4:hover{
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    footer{
+        background-color: burlywood;
+        font-size: small;
+        border: 3px solid black;
+    }
+    
+    .Foot{
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .Barra{
+        color: black;
+        font-size: 17px;
+        background-color:aquamarine;
+        border: ridge;
+        text-decoration: none;
+    }
+    
+    .imágenes{
+        display: flex;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botonAct{
+        border: 1px solid #2e518b;
+        padding: 10px;
+        background-color: #2e518b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 1s;
+        font-size: 17px;
+    }
+    
+    .botonAct:hover{
+        background-color: darkred;
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .botonSig{
+        border: 1px solid #2e518b;
+        padding: 10px;
+        background-color: #2e518b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 1s;
+        font-size: 17px ;
+    }
+    
+    .botonSig:hover{
+        background-color: darkred;
+        transform: scale(1.1);
+        transition: 2s;
+    }
+}
